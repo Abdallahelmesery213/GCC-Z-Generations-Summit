@@ -143,6 +143,22 @@ header .right-part .nav2 ul li:not(:last-child)::after {
   bottom: 3px;
   background-color: #fff;
 }
+header .nav-1{
+  background-color: #000;
+  color: #fff;
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+header .nav-2{
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+header .nav-2 li a{
+  color: #000;
+}
+header .nav-1 ul li a{
+  color: #fff;
+}
 /* end navbar */
 
 .counter-top {
@@ -492,7 +508,7 @@ footer h5 {
   /* font-family: bruumBold;
   color: #1b75ba;
   font-size: 18px; */
-  color: var(--main-color);
+  color: #000;
   font-family: bruumBold;
   font-size: 15px;
   margin-top: 20px;
@@ -513,7 +529,7 @@ footer .links span:hover {
   font-weight: 700;
 }
 footer .subscribe-label {
-  color: #1b75ba;
+  color: #000;
   font-size: 17px;
   font-weight: bold;
 }
